@@ -96,7 +96,7 @@
 				TargetAttributes = {
 					AEA498F61D15848400E746AB = {
 						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = 6HLFCRTYQU;
+						DevelopmentTeam = JQNK74493B;
 						DevelopmentTeamName = "Yongjian Lin";
 						ProvisioningStyle = Automatic;
 					};
@@ -256,7 +256,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = JQNK74493B;
 				INFOPLIST_FILE = SaveTheDot/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Jake-Lin.SaveTheDot";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -268,7 +270,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = JQNK74493B;
 				INFOPLIST_FILE = SaveTheDot/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Jake-Lin.SaveTheDot";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -295,6 +299,7 @@
 				AEA4990B1D15848400E746AB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
