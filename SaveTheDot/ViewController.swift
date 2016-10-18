@@ -8,6 +8,7 @@
 
 import UIKit
 
+@available(iOS 10.0, *)
 class ViewController: UIViewController {
   
   // MARK: - enum
@@ -123,11 +124,12 @@ class ViewController: UIViewController {
   }
 }
 
+@available(iOS 10.0, *)
 fileprivate extension ViewController {
   func setupPlayerView() {
     playerView.bounds.size = CGSize(width: radius * 2, height: radius * 2)
     playerView.layer.cornerRadius = radius
-    playerView.backgroundColor = #colorLiteral(red: 0.7098039216, green: 0.4549019608, blue: 0.9607843137, alpha: 1)
+    playerView.backgroundColor = #colorLiteral(red: 0.01680417731, green: 0.1983509958, blue: 1, alpha: 1)
     
     view.addSubview(playerView)
   }
